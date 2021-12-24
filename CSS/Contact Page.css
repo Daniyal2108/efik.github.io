@@ -1,0 +1,45 @@
+/* NAVIGATION*/
+.nav-container {
+    background-color: rgba(128, 128, 128, 0.26);
+}
+.third-row {
+    background-color: rgba(128, 128, 128, 0.493);
+    padding-top: 10;
+}
+.third-row a {
+    color: #B8860B;
+}
+.contact-section {
+    padding: 50 0 50 0;
+    background-color: black;
+    color: white;
+}
+.contact-section h2 {
+    font-size: 250% !important;
+}
+.contact-section p {
+    font-size: large;
+}
+.contactCol input {
+    color: white;
+    background-color: black;
+    border: solid 1px white;
+}
+.contactCol textarea {
+    color: white;
+    background-color: black;
+    border: solid 1px white;
+}
+.contactCol button {
+    margin-top: 80;
+    width: 100%;
+    color: white;
+    background-color: #B8860B;
+}
+.map {
+    padding-top: 50;
+    padding-bottom: 50;
+    border:0;
+    width:100%;
+    height: 100%;
+}

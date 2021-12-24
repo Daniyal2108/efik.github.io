@@ -1,0 +1,70 @@
+/* NAVIGATION*/
+.nav-container {
+    background-color: rgba(128, 128, 128, 0.26);
+}
+/* HOME / ABOUT / MEDICAL MISSION*/
+.third-row {
+    background-color: rgba(128, 128, 128, 0.493);
+    padding-top: 10;
+}
+.third-row a {
+    color: #B8860B;
+}
+.third-row span {
+    color: black;
+}
+/* MEDICAL MISSION SECTION*/
+.medical-mission-section {
+    padding: 50 0 50 0;
+}
+.medical-mission-section h1 {
+    color: #B8860B;
+}
+.medical-mission-section .second-div img {
+    border: solid 10px rgba(128, 128, 128, 0.13);
+}
+/* BRIEF REPORT SECTION*/
+.report-section {
+    background-color: black;
+    padding-top: 50;
+    padding-bottom: 50;
+    color: white;
+}
+.report-section-img {
+    border: solid 10px rgba(240, 234, 234, 0.733);
+}
+/* STATISTICS FOR CALABAR*/
+.statistics-for-calabar {
+    background-color: #B8860B;
+    padding-top: 50;
+    padding-bottom: 50;
+}
+.statistics-heading {
+    color: white;
+}
+.statistics-flexbox-row {
+    padding-top: 5;
+}
+.statistics-flexbox {
+    padding-top: 30;
+}
+.flexbox {
+    background-color: white;
+    border-radius: 10px;
+    padding: 50;
+    height: 100%;
+}
+/* MEDICAL MISSION GALLERY*/
+.medical-mission-gallery-section {
+    padding-top: 50;
+    padding-bottom: 50;
+}
+.medical-mission-gallery-images-col {
+    padding-top: 20;
+}
+.medical-mission-img {
+    border: solid 10px rgba(128, 128, 128, 0.349);
+}
+.medical-mission-img:hover {
+    border: solid 6px rgba(128, 128, 128, 0.349);
+}

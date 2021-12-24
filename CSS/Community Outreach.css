@@ -1,0 +1,47 @@
+/* NAVIGATION*/
+.nav-container {
+    background-color: rgba(128, 128, 128, 0.26);
+}
+/* HOME / ABOUT / MISSION / COMMUNITY OUTREACH */
+.community-outreach-third-row {
+    background-color: rgba(128, 128, 128, 0.493);
+    padding-top: 10;
+}
+.community-outreach-third-row a {
+    color: #B8860B;
+}
+.community-outreach-third-row-para {
+    color: #B8860B;
+}
+.community-outreach-third-row-span {
+    color: black;
+}
+/* COMMUNITY OUTREACH SECTION*/
+.community-outreach {
+    padding-top: 50;
+    padding-bottom: 50;
+}
+.community-outreach h1 {
+    color: #B8860B;
+}
+.community-outreach p {
+    font-size: larger;
+}
+.community-outreach img {
+    border: solid 10px rgba(128, 128, 128, 0.308);
+}
+/* MEDICAL MISSIONS GALLLERY*/
+.medical-mission-gallery {
+    background-color: #B8860B;
+    padding-top: 50;
+    padding-bottom: 50;
+}
+.medical-mission-gallery h1 {
+    color: white;
+}
+.medical-mission-gallery-img-row {
+    padding-top: 30;
+}
+.medical-mission-gallery-img-row img {
+    border: solid 10px white;
+}

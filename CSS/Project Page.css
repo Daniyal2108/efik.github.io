@@ -1,0 +1,46 @@
+/* NAVIGATION*/
+.nav-container {
+    background-color: rgba(128, 128, 128, 0.26);
+}
+/* HOME / ABOUT / PROJECT */
+.third-row {
+    background-color: rgba(128, 128, 128, 0.493);
+    padding-top: 10;
+}
+.third-row a {
+    color: #B8860B;
+}
+.third-row-para {
+    color: #B8860B;
+}
+.third-row-span {
+    color: black;
+}
+/* OUR PROJECT SECTION*/
+.our-project-container {
+    padding-top: 50;
+    padding-bottom: 50;
+}
+.our-project-container h1 {
+    color: #B8860B;
+}
+.our-project-container p {
+    font-size: larger;
+}
+.our-project-container img {
+    border: solid 10px rgba(128, 128, 128, 0.308);
+}
+
+/* FUND RAISING COMMITTEE*/
+.raising-committee-container {
+    background-color: #B8860B;
+    color: white;
+    padding-top: 50;
+}
+.raising-committee-container p {
+    font-size: larger;
+}
+.raising-committee-container ul {
+    list-style: none;
+    font-size: larger;
+}

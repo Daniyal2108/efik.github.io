@@ -1,0 +1,958 @@
+@font-face {
+    font-family: BebasNeue-Regular;
+    src: url(../Font-Family/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../Font-Family/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../Font-Family/Montserrat-Regular.ttf);
+}
+button {
+    font-family: BebasNeue-Regular;
+}
+h1 {
+    font-family: BebasNeue-Regular;
+    font-size: 60 !important;
+}
+.sub-heading {
+    font-family: BebasNeue-Regular;
+    font-size: 40 !important;
+}
+h2 {
+    font-family: BebasNeue-Regular;
+}
+h5 {
+    font-family: BebasNeue-Regular;
+    font-size: 30 !important;
+}
+p {
+    font-family: Montserrat-Regular;
+}
+a {
+    font-family: Montserrat-Regular;
+}
+li {
+    font-family: Montserrat-Regular;
+}
+.mont {
+    font-family: Montserrat-Regular;
+}
+/* TOP ROW*/
+.top-row-container {
+    font-family: Montserrat-Regular !important;
+    background-color: #B8860B;
+    padding-top: 10; 
+}
+.contact-no {
+    font-family: Montserrat-Regular !important;
+    color: white !important;
+}
+.address {
+    font-family: Montserrat-Regular !important;
+    color: white;
+}
+@media only screen and (min-width: 1200px) {
+    .login-btn button {
+        margin-left: -50 !important;
+    }
+    .support-btn {
+        margin-left: -50 !important;
+    }
+}
+.login-btn {
+    color: white;
+    font-size: large;
+}
+.support-btn {
+    color: white;
+    font-size: large;
+}
+.btn-primary {
+    background-color:  rgba(0, 0, 0, 0.164);
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .contact-no {
+        text-align: center;
+    }
+    .address {
+        text-align: center;
+    }
+    .login-btn {
+        text-align: right;
+        padding-bottom: 10px;
+    }
+}
+/* NAVIGATION*/
+li .nav-link {
+    color: black ;
+    font-weight: bold;
+    font-size: large;
+}
+li .nav-link:hover {
+    color: #B8860B !important;
+}
+.about a:hover {
+    background-color: #B8860B;
+}
+.youth a:hover {
+    background-color: #B8860B;
+}
+.efiks a:hover {
+    background-color: #B8860B;
+}
+@media only screen and (max-width: 1199px) {
+    li .nav-link {
+        font-size: medium;
+    }
+}
+@media only screen and (max-width: 991px) {
+    li .nav-link {
+        font-size: large;
+    }
+}
+/* BANNER*/
+.home-banner {
+    background-image: url(../EFIK-Slicing/pexels-wendy-wei-1190298.jpg);
+    background-size: cover;
+    background-repeat: round;
+    background-attachment: fixed;
+}
+.home-banner-container {
+    padding-top: 100;
+    padding-bottom: 100;
+    background-color: #b8870b46;
+    color: white;
+}
+.home-banner-container h3 {
+    padding-top: 20;
+}
+.home-banner-container p {
+    padding-top: 20;
+    font-size: larger;
+}
+/* FLAG IMAGE AND OUR HEROES*/
+.our-heroes {
+    color: white;
+    background-color: #B8860B;
+    padding-top: 20;
+    padding-bottom: 20;
+}
+.our-heroes p {
+    font-size: larger;
+}
+/* ANNUAL NATIONAL EFIK CONVENTION*/
+.annual-efik-convention {
+    color: white;
+    background-color: black;
+    padding-top: 50;
+    padding-bottom: 50;
+}
+.annual-efik-convention h1 {
+    font-size: larger;
+}
+.annual-efik-convention p {
+    font-size: larger;
+}
+.register-now-btn button {
+    border: solid 2px white;
+    background-color: white;
+    color: black;
+}
+.register-now-btn button:hover {
+    border: solid 2px white;
+    background-color: black;
+    color: white;
+}
+/* OUR MISSION SECTION*/
+.our-mission-jumbotron {
+    padding-top: 400;
+    background-image: url(../EFIK-Slicing/target-min.jpg) ;
+    background-size: cover;
+    background-repeat: round;
+    background-attachment: fixed;
+}
+.our-mission-section {
+    color: white;
+    background-color: #B8860B;
+    margin-top: -200;
+    padding-top: 50;
+    padding-bottom: 70;
+}
+.our-mission-section p {
+    font-size: larger;
+}
+.learn-more-btn button {
+    border: solid 2px white;
+    color: white;
+}
+.learn-more-btn button:hover {
+    border: solid 2px white;
+    background-color: white;
+    color: black;
+}
+.donate-now-btn button {
+    background-color: white;
+    color: black;
+}
+.donate-now-btn button:hover {
+    
+    background-color: #f3be399c;
+    color: white;
+}
+/* EFIK LANGUAGE LESSONS WITH AUNTY JOAN*/
+.efik-language-lessons-jumbotron {
+    padding: 100 0 100 0;
+    background-image: url(../EFIK-Slicing/ndebele-people-south-africa.jpg) ;
+    background-size: cover;
+    background-repeat: round;
+    background-attachment: fixed;
+}
+.efik-language-lessons-section {
+    color: white;
+    background-color: #b8870b46;
+    padding-top: 20;
+    padding-bottom: 20;
+}
+.efik-language-lessons-section p {
+    font-size: larger;
+}
+.more-information-btn {
+    padding-top: 30;
+}
+.more-information-btn button {
+    background-color: white;
+    color: black;
+}
+.more-information-btn button:hover {
+    
+    background-color: #B8860B;
+    color: white;
+}
+/* OUR VISION*/
+.headingCol {
+    padding-top: 20;
+}
+.para {
+    padding-top: 50;
+}
+.our-vision {
+    padding-top: 50;
+    padding-bottom: 50;
+}
+.our-vision img:hover {
+    border: solid 6px rgba(128, 128, 128, 0.568);
+}
+.our-vision h2 {
+    padding-bottom: 20;
+    font-weight: bolder;
+}
+.our-vision img {
+    border: solid 10px rgba(128, 128, 128, 0.568);
+}
+.view-more-1 {
+    padding-top: 30;
+    padding-bottom: 30;
+}
+.view-more-1 button {
+    border: solid 2px black;
+}
+.view-more-1 button:hover {
+    border: solid 2px black;
+    background-color: black;
+    color: white;
+}
+.view-more-2 {
+    padding-top: 30;
+    padding-bottom: 30;
+}
+.view-more-2 button {
+    background-color: #B8860B;
+    color: white;
+}
+.view-more-3 {
+    padding-top: 30;
+    padding-bottom: 30;
+}
+.view-more-3 button {
+    border: solid 2px black;
+}
+.view-more-3 button:hover {
+    border: solid 2px black;
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width: 767px) {
+    .headingCol {
+        text-align: center;
+    }
+}
+/* GET A QUOTE*/
+.get-a-quote {
+    background-color: black;
+    color: white;
+    padding: 50 0 60 0;
+}
+.get-a-quote p {
+    font-size: larger;
+}
+.get-now {
+    padding-top: 40;
+}
+.get-now button {
+    border: solid 2px white;
+    color: white;
+}
+.get-now button:hover {
+    border: solid 2px white;
+    background-color: white;
+    color: black;
+}
+/* EFIK HALL OF FAME*/
+.img-row {
+    padding-top: 50;
+    padding-bottom: 50;
+}
+.hanger-img {
+    display: flex;
+    border: solid 10px rgba(128, 128, 128, 0.5);
+}
+.hanger-img:hover {
+    border: solid 5px rgba(128, 128, 128, 0.5);
+}
+.img-1 {
+    margin-top: -150;
+    margin-left: 40;
+    width: 150%;
+}
+.img-2 {
+    margin-top: -30;
+    margin-left: 50;
+    width: 150%;
+}
+.img-3 {
+    margin-top: -195;
+    margin-left: 50;
+    width: 150%;
+}
+.img-4 {
+    margin-left: 50;
+    margin-top: -30;
+    width: 150%;
+}
+.img-5 {
+    margin-top: -150;
+    margin-left: 70;
+    width: 150%;
+}
+@media only screen and (max-width: 565px) {
+    #img-3 {
+        margin-top: -100px !important;
+    }
+}
+@media only screen and (max-width: 550px) {
+    #img-3 {
+        margin-top: -90px !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #img-3 {
+        margin-top: -80px !important;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .hanger-img {
+        width: 250%;
+    }
+    .img-1 {
+        margin-left: 10px !important;
+    }
+    .img-2 {
+        margin-left: 10px !important;
+    }
+    .img-3 {
+        margin-left: 5px !important;
+    }
+    #img-3 {
+        margin-top: -70px !important;
+    }
+    .img-4 {
+        margin-left: 5px !important;
+    }
+    .img-5 {
+        margin-left: 5px !important;
+    }
+}
+@media only screen and (max-width: 390px) {
+    #img-3 {
+        margin-top: -70px !important;
+    }
+}
+@media only screen and (max-width: 340px) {
+    #img-3 {
+        margin-top: -50px !important;
+    }
+}
+/* BREAKING NEWS*/
+.breakingNewsRow {
+    padding-top: 50;
+}
+.rowSection {
+    padding-top: 20;
+}
+.breaking-news-section {
+    background-color: #B8860B;
+    color: white;
+    padding-top: 50;
+    padding-bottom: 50;
+}
+.breaking-news-section button {
+    border: solid 2px white;
+    color: white;
+}
+.breaking-news-section button:hover {
+    background-color: white;
+    color: #B8860B;
+}
+@media only screen and (max-width: 767px) {
+    .bullet-points {
+        text-align: center ;
+    }
+    .bullet-points-pad-bot {
+        padding-bottom: 20px;
+    }
+    .breakingNewsRow {
+        text-align: center;
+    }
+    .rowSection {
+        text-align: center;
+    }
+}
+/* EFIK ART*/
+.efik-art {
+    padding-top: 50;
+    padding-bottom: 50; 
+}
+.efik-art h1 {
+    font-family: BebasNeue-Regular;
+    font-size: 50 !important;
+}
+/* EFIK TRADITIONAL MUSIC*/
+.efik-music {
+    padding: 50 0 50 0;
+    background-image: url(../EFIK-Slicing/Music-background.png) ;
+    background-size: cover;
+    background-repeat: round;
+    background-attachment: fixed;
+    color: white;
+}
+/* LATEST NEWS*/
+.latest-news-container {
+    padding-top: 50;
+    padding-bottom: 50;
+}
+.latest-news-container img {
+    border: solid 10px rgba(128, 128, 128, 0.308);
+}
+.latest-news-container button {
+    background-color: #B8860B;
+    color: white;
+}
+/* LATEST BLOGS*/
+.latest-blogs {
+    background-color: #B8860B;
+    color: white;
+    padding-top: 50;
+    padding-bottom: 50;
+}
+.latest-blogs img {
+    border: solid 10px white;
+}
+.latest-blogs button {
+    background-color: white;
+    color: #B8860B;
+}
+.latest-blogs button:hover {
+    background-color: #e2a817d3;
+    color: white;
+}
+.small {
+    font-size: smaller;
+}
+.large {
+    font-size: smaller;
+}
+/* BOT STRIP*/
+.bot-strip img{
+    width: 100%;
+}
+/* FOOTER*/
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20 0 20 0;
+    font-size: 90% !important;
+}
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+    #box-num {
+        font-size: 35;
+    }
+}
+/* Media Query For News Logo*/
+@media only screen and (min-width: 1120px) and (max-width: 1230px) {
+    #news-logo {
+        margin-left: 800;
+    }
+}
+@media only screen and (min-width: 1230px) and (max-width: 2000px) {
+    #news-logo {
+        margin-left: 900;
+    }
+}
+@media only screen and (min-width: 1420px) and (max-width: 2000px) {
+    #news-logo {
+        margin-left: 1000;
+    }
+}
+@media only screen and (min-width: 1610px) and (max-width: 2000px) {
+    #news-logo {
+        margin-left: 1200;
+    }
+}
+@media only screen and (min-width: 1815px) and (max-width: 2000px) {
+    #news-logo {
+        margin-left: 1300;
+    }
+}
+@media only screen and (min-width: 1960px) and (max-width: 2070px) {
+    #news-logo {
+        margin-left: 1400;
+    }
+}
+@media only screen and (min-width: 2070px) and (max-width: 2243px) {
+    #news-logo {
+        margin-left: 1500;
+    }
+}
+@media only screen and (min-width: 2243px) and (max-width: 2606px) {
+    #news-logo {
+        margin-left: 1600;
+        margin-top: -300;
+    }
+}
+/* Media Query For Our Heroes Div*/
+@media only screen and (min-width: 1500px) and (max-width: 2000px) {
+    #our-heroes {
+        margin-left: -250;
+    }
+}
+@media only screen and (min-width: 2000px) and (max-width: 2606px) {
+    #our-heroes {
+        margin-left: -380;
+    }
+}
+/* Large Device*/
+@media only screen and (min-width: 600px) {
+    .about {
+        margin-top: -10;
+        margin-left: 300;
+    }
+    .youth {
+        margin-top: -10;
+        margin-left: 400;
+    }
+    .efiks {
+        margin-top: -10;
+        margin-left: 700;
+    }
+    .our-heroes {
+        margin-top: 15;
+        margin-left: -100;   
+    }   
+    #text {
+        padding-left: 100;
+        padding-right: 100;
+    }
+    .learn-more-btn {
+        text-align: right;
+    }
+    .register-now-btn {
+        text-align: left;
+    }
+    .donate-now-btn {
+        text-align: left;
+    }
+    .headingCol {
+        padding-top: 10;
+    }
+    .para {
+        padding-top: 0;
+    }
+    .view-more-1 {
+        padding-top: 0;
+    }
+    .view-more-2 {
+        padding-top: 0;
+    }
+    .view-more-3 {
+        padding-top: 0;
+    }
+    .news-logo {
+        margin-left: 1000;
+        margin-top: -200;
+        padding-bottom: 120;
+    }
+    .news-img {
+        width: 150%;
+    }
+    .copyright {
+        padding-top: 50;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .traditional-music-heading {
+        font-size: 20;
+    }
+    #statistics-heading {
+        font-size: 20;
+    }
+    .home-banner h1 {
+        font-size: 25;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .nav-logo {
+        width: 70% !important;
+    }
+    .news-logo {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+        padding-bottom: 0;
+        padding-top: 20;
+    }
+    .news-img {
+        width: 100%;
+    }
+    .contact-no {
+        text-align: center;
+        padding-top: 20;
+    }
+    .address {
+        text-align: center;
+        padding-bottom: 20;
+    }
+    .login-btn {
+        text-align: center;
+        padding-bottom: 10;
+    }
+    .support-btn {
+        text-align: center;
+        padding-bottom: 20;
+    }
+    nav {
+        text-align: left;
+    }
+    .learn-more-btn {
+        text-align: center;
+    }
+    .register-now-btn {
+        text-align: center;
+    }
+    .donate-now-btn {
+        text-align: center;
+    }
+    .art-img {
+        text-align: center;
+        padding-top: 20;
+    }
+    .music-img {
+        text-align: center;
+    }
+    .news-img {
+        width: 50%;
+    }
+    .news-img-div {
+        text-align: center;
+    }
+    .news-content {
+        text-align: center;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .footer-logo {
+        text-align: center;
+    }
+    #box-num {
+        font-size: 35;
+    }
+    .statistics-heading {
+        font-size: 25;
+    }
+    #box-text-size {
+        font-size: 25;
+    }
+    #box-num {
+        font-size: 20;
+    }
+    #box-text-size-2 {
+        font-size: 18;
+    }
+    #box-text {
+        font-size: 25;
+    } 
+}   
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .nav-logo {
+        width: 70% !important;
+    }
+    .about {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .youth {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .efiks {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .news-logo {
+        text-align: center;
+        padding-top: 10;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .news-img {
+        width: 100%;
+    }
+    .contact-no {
+        text-align: center;
+        padding-top: 20;
+    }
+    .address {
+        text-align: center;
+        padding-bottom: 20;
+    }
+    .login-btn {
+        text-align: center;
+        padding-bottom: 10;
+    }
+    .support-btn {
+        text-align: center;
+        padding-bottom: 20;
+    }
+    .our-heroes {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .learn-more-btn {
+        text-align: center;
+    }
+    .register-now-btn {
+        text-align: center;
+    }
+    .donate-now-btn {
+        text-align: center;
+    }
+    .art-img {
+        text-align: center;
+        padding-top: 20;
+    }
+    .music-img {
+        text-align: center;
+    }
+    .news-img {
+        width: 50%;
+    }
+    .news-img-div {
+        text-align: center;
+    }
+    .news-content {
+        text-align: center;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .footer-logo {
+        text-align: center;
+    }
+    .medical-mission-img {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 765px) and (max-width: 990px) {
+    .about {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .youth {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .efiks {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .img-1 {
+        margin-top: -90 !important ;
+    }
+    .img-2 {
+        margin-top: -20;
+        margin-left: 40;
+    }
+    .img-3 {
+        margin-top: -120 !important ;
+        margin-left: 38;
+    }
+    .img-4 {
+        margin-top: -20;
+        margin-left: 40;
+    }
+    .img-5 {
+        margin-top: -93 !important ;
+        margin-left: 40;
+    }
+}
+@media only screen and (min-width: 565px) and (max-width: 765px) {
+    .img-1 {
+        margin-top: -72 !important ;
+        margin-left: 30;
+    }
+    .img-2 {
+        margin-top: -15;
+        margin-left: 35;
+    }
+    .img-3 {
+        margin-top: -95 !important ;
+        margin-left: 30;
+    }
+    .img-4 {
+        margin-top: -15;
+        margin-left: 35;
+    }
+    .img-5 {
+        margin-top: -70 !important ;
+        margin-left: 35;
+    }
+}
+@media only screen and (min-width: 390px) and (max-width: 565px) {
+    .img-1 {
+        margin-top: -65 !important ;
+        margin-left: 30;
+    }
+    .img-2 {
+        margin-top: -15;
+        margin-left: 30;
+    }
+    .img-3 {
+        margin-top: -75 !important ;
+        margin-left: 30;
+    }
+    .img-4 {
+        margin-top: -12;
+        margin-left: 32;
+    }
+    .img-5 {
+        margin-top: -65 !important ;
+        margin-left: 30;
+    }
+}
+@media only screen and (min-width: 350px) and (max-width: 390px) {
+    .img-1 {
+        margin-top: -45 !important ;
+        margin-left: 25;
+    }
+    .img-2 {
+        margin-top: -10;
+        margin-left: 25;
+    }
+    .img-3 {
+        margin-top: -57 !important ;
+        margin-left: 20;
+    }
+    .img-4 {
+        margin-top: -8;
+        margin-left: 25;
+    }
+    .img-5 {
+        margin-top: -42 !important ;
+        margin-left: 30;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .img-1 {
+        margin-top: -40 !important ;
+        margin-left: 25;
+    }
+    .img-2 {
+        margin-top: -8;
+        margin-left: 25;
+    }
+    .img-3 {
+        margin-top: -52 !important ;
+        margin-left: 20;
+    }
+    .img-4 {
+        margin-top: -8;
+        margin-left: 22;
+    }
+    .img-5 {
+        margin-top: -42 !important ;
+        margin-left: 20;
+    }
+}
+@media only screen and (min-width: 770px) and (max-width: 1000px) {
+    .navigation {
+        text-align: right;
+    }
+    .navigation button {
+        display: flex;
+        margin-left: 440;
+        text-align: right;
+    }
+    #box-text-size {
+        font-size: 25;
+        font-weight: bold;
+    }
+    #box-num {
+        font-size: 20;
+        font-weight: bold;
+    }
+    #box-text-size-2 {
+        font-size: 18;
+    }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+    #img-3 {
+        margin-top: -165;
+        margin-left: 50;
+        width: 150%;
+    }
+}
+@media only screen and (min-width: 890px) and (max-width: 1330px) {
+    .news-logo {
+        margin-left: 700;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 890px) {
+    .news-logo {
+        margin-left: 620;
+    }
+}
+@media only screen and (min-width: 770px) and (max-width: 800px) {
+    .news-logo {
+        margin-left: 600;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 770px) {
+    .news-logo {
+        margin-left: 570;
+        margin-top: -190;
+    }
+}

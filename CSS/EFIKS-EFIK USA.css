@@ -1,0 +1,108 @@
+
+/* NAVIGATION*/
+.nav-container {
+    background-color: rgba(128, 128, 128, 0.26);
+}
+.third-row a {
+color: #B8860B;
+}
+.third-row span {
+    color: black;
+}
+.efiks-usa {
+    padding: 50 0 50 0;
+}
+.efiks-usa h1 {
+color: #B8860B;
+}
+.efiks-usa img {
+    border: solid 10px rgba(128, 128, 128, 0.308);
+}
+.diaspora-img {
+    height: 80%;
+}
+/* HOME / EFIK BRASIL */
+.third-row {
+    background-color: rgba(128, 128, 128, 0.493);
+    padding-top: 10;
+}
+/* EFIK CUBAN PAGE*/
+.cuban-img-sec {
+    padding-top: 50;
+}
+.cuban-text-sec {
+    padding-bottom: 50;
+}
+.ProfMillerHeading {
+    font-size: larger;
+}
+.ekypeMigration {
+    padding-top: 50;
+    padding-bottom: 50;
+    background-color: #B8860B;
+    color: white;
+}
+.abakuci-Jurisprudence {
+    padding-top: 50;
+    padding-bottom: 50;
+    background-color: black;
+    color: white;
+}
+.confrontingMisconceptions {
+    padding-top: 50;
+    padding-bottom: 50;
+    background-color: rgba(128, 128, 128, 0.26);;
+}
+.migration {
+    padding-top: 50;
+    padding-bottom: 50;
+    background-color: rgba(128, 128, 128, 0.493);
+}
+.migration h2 {
+    color: #B8860B;
+}
+.evoking-abakua {
+    padding-top: 50;
+    padding-bottom: 50;
+    background-color: #B8860B;
+    color: white;
+}
+.evoking-abakua img {
+    height: 100%;
+}
+.h2 {
+    font-size: 45 !important;
+}
+/* EFIK CUBAN PAGE 2*/
+.black-section {
+    padding-top: 50;
+    padding-bottom: 50;
+    background-color: black;
+    color: white;
+}
+.conclusion {
+    padding-top: 50;
+    padding-bottom: 50;
+    background-color: #B8860B;
+    color: white;
+}
+.ecobioImg {
+    height: 100%;
+    text-align: center;
+}
+.acamanyere-img {
+    height: 100%;
+    text-align: center;
+}
+.eldia-img {
+    height: 100%;
+    text-align: center;
+}
+.eldia-img-2 {
+    height: 100%;
+    text-align: center;
+}
+.eldia-img-3 {
+    padding-top: 20;
+    text-align: center;
+}

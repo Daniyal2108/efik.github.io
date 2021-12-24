@@ -1,0 +1,29 @@
+/* NAVIGATION*/
+.nav-container {
+    background-color: rgba(128, 128, 128, 0.26);
+}
+/*EFIK LANGUAGE EXCHANGE SECTION */
+.third-row {
+    background-color: rgba(128, 128, 128, 0.493);
+    padding-top: 10;
+}
+.third-row a {
+    color: #B8860B;
+}
+.third-row span {
+    color: black
+}
+.language-section {
+    padding: 50 0 50 0;
+}
+.language-section h1 {
+    color: #B8860B;
+}
+.language-section img {
+    border: solid 10px rgba(128, 128, 128, 0.308);
+}
+@media only screen and (max-width: 600px) {
+    .YouthBlog {
+        text-align: center;
+    }
+}

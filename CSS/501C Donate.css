@@ -1,0 +1,61 @@
+/* NAVIGATION*/
+.nav-container {
+    background-color: rgba(128, 128, 128, 0.26);
+}
+/* HOME / ABOUT / 501C DONATE*/
+.donate-third-row {
+    background-color: rgba(128, 128, 128, 0.493);
+    padding-top: 10;
+}
+.donate-third-row a {
+    color: #B8860B;
+}
+.donate-row-para {
+    color: #B8860B;
+}
+.donate-row-span {
+    color: black;
+}
+/* 501C DONATE SECTION*/
+.donate-section {
+    padding: 50 0 50 0;
+}
+.donate-section h1 {
+    color: #B8860B;
+}
+.donate-section p {
+    font-size: larger;
+}
+.donate-section img {
+    border: solid 10px rgba(128, 128, 128, 0.308);
+}
+/* LISTING*/
+.listing {
+    padding: 50 0 50 0;
+    background-color: #B8860B;
+    color: white;
+}
+.listing ul {
+    font-size: larger;
+}
+@media only screen and (min-width: 600px) and (max-width: 770px) {
+    .listings {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .listings {
+        text-align: center;
+    }
+}
+/* DONATE NOW SECTION*/
+.donate-now-section {
+    background-color: black;
+    color: white;
+    font-size: larger;
+    padding-top: 50;
+    padding-bottom: 50;
+}
+.donate-now-section img {
+    border: solid 10px white;
+}

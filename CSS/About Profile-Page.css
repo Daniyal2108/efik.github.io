@@ -1,0 +1,32 @@
+/* NAVIGATION*/
+.nav-container {
+    background-color: rgba(128, 128, 128, 0.26);
+}
+/* HOME / ABOUT/ PROFILE*/
+.about-profile-third-row {
+    background-color: rgba(128, 128, 128, 0.493);
+    padding-top: 10;
+}
+.about-profile-third-row a {
+    color: #B8860B;
+}
+.about-profile-third-row-para {
+    color: #B8860B;
+}
+.about-profile-third-row-span {
+    color: black;
+}
+/* PROFILE SECTION*/
+.profile-section {
+    padding-top: 50;
+    padding-bottom: 50;
+}
+.profile-section h1 {
+    color: #B8860B;
+}
+.profile-section p {
+    font-size: larger;
+}
+.profile-section img {
+    border: solid 10px rgba(128, 128, 128, 0.308);
+}
